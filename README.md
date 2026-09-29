@@ -1,5 +1,7 @@
 # AMPsequill — AMP Challenge 2027
 
+![AMPsequill pixel-art banner](assets/ampsequill-pixel-banner.png)
+
 AMPsequill is a computational antimicrobial peptide design submission. An ESM-C 300M model with a LoRA adapter generates a library of 50,000 peptides. XAMP, HemoPI2, and APEX predictions support a deterministic four-scenario ranking of 100 candidates. The submitted files are [`generate/library.fasta`](generate/library.fasta) and [`generate/top.fasta`](generate/top.fasta), in ranked order.
 
 ## Run the submission
