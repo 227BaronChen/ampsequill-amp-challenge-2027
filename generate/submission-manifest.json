@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "library_count": 50000,
+  "top100_count": 100,
+  "materialized_outputs": {
+    "library_fasta_sha256": "d72633df797e392a4765cb42a819571ca56b7def5fb667d7bea8a533ad168274",
+    "top_fasta_sha256": "b61eaef7a6884810babd20dd86bc4ff85413782cfe6005ce958358be8dff079c"
+  }
+}

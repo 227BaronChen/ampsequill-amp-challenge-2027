@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.venv-incomplete-*/
+.venv-*/
+.cache/
+generate/*.json
+!generate/submission-manifest.json
+generate/*.jsonl
+generate/*.log
+*.partial

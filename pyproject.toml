@@ -1,0 +1,35 @@
+[project]
+name = "ampsequill-amp-challenge-2027"
+version = "1.0.0"
+description = "AMPsequill submission for the AMP Challenge 2027"
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+license = { file = "LICENSE" }
+dependencies = [
+  "torch==2.3.0",
+  "numpy==1.26.4",
+  "pandas==2.3.3",
+  "scipy==1.15.3",
+  "scikit-learn==1.7.2",
+  "biopython==1.85",
+  "esm==3.2.1.post1",
+  "peft==0.17.1",
+  "transformers==4.47.1",
+  "huggingface-hub==0.36.0",
+  "httpx==0.28.1",
+  "levenshtein==0.27.3",
+  "rapidfuzz==3.13.0",
+]
+
+[project.scripts]
+generate = "ampsequill_amp_challenge_2027.generate:main"
+
+[build-system]
+requires = ["uv_build>=0.9.18,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.uv]
+package = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ampsequill_amp_challenge_2027"]
